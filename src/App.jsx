@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEdit, faTrashAlt, faPlus } from '@fortawesome/free-solid-svg-icons';
 import './App.css';
 
-const API_URL = 'http://localhost:3000/api/users';
+const API_URL = 'https://user-management-back-end.vercel.app/api/users';
 
 function App() {
   const [users, setUsers] = useState([]);
